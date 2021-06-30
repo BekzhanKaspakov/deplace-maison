@@ -1,0 +1,26 @@
+{
+  "name": "practice-deplace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "sass src/scss:public/css && npx webpack",
+    "start": "node ./bin/www",
+    "sass": "sass --watch src/scss:public/css --style compressed"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "hbs": ">=4.0.1",
+    "jquery": "^3.6.0",
+    "morgan": "^1.10.0",
+    "sass": "^1.35.1",
+    "serve-favicon": ">=2.5.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^7.0.0",
+    "nodemon": ">=2.0.2",
+    "webpack": "^5.41.1",
+    "webpack-cli": ">=3.3.11"
+  }
+}

@@ -1,0 +1,15 @@
+@import './font';
+@import './resets';
+@import './variables';
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Eurostile-Reg;
+    &.no_overflow {
+        overflow: hidden;
+    }
+}

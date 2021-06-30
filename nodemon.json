@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "app.js",
+        "modules",
+        "src/js",
+        "src/scss",
+        "views",
+        "routes",
+        "lib"
+    ],
+    "ext": "js, scss, hbs"
+}
